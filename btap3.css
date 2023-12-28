@@ -1,0 +1,10 @@
+.tung {
+    border-radius: 50% 50% 10% 10%;
+}
+.container {
+    text-align: center;
+    padding: 20px ;
+    border: 2px solid silver ;
+    width: 300px;
+
+}

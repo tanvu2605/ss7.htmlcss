@@ -1,0 +1,23 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    border-radius: 20px;
+    position: relative; 
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 95%;
+    left: 90%;
+    transform: translate(-50%, 50%); 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

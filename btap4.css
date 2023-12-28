@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: lightgray;
+}
+
+.avatar-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 4px solid #fff; /* Khung trắng bên ngoài */
+    border-radius: 50%; /* Hình tròn */
+    overflow: hidden; /* Để ảnh không vượt qua khung */
+}
+
+.avatar-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%; /* Hình tròn */
+}
